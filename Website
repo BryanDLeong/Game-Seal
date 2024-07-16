@@ -1,5 +1,47 @@
+<!DOCTYPE html>
 <html>
-  <body>
-    <p> idk how to use this </p>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Game Seal Intro Page</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="viewport" 
+    content="width=device-width, initial-scale=1">
+</head>
+  
+<body class = " p-5 bg-gradient-to-r from-blue-500 via-blue-200 to-blue-500 grid grid-cols-1 justify-items-center">
+  <script src="script.js"></script>
+  <div class = "bg-white bg-opacity-20 rounded-2xl grid grid-cols-1 justify-items-center w-3/5 p-5 gap-5">
+    <h1 class = "text-center text-black text-3xl">Introduction</h1>
+    <div class = "bg-white bg-opacity-30 grid grid-cols-2 justify-items-center w-5/6 p-5 rounded-lg gap-3">
+      <img
+        class = "rounded-lg"
+        src = "images/ss1.png"
+        alt = "image not available"
+        width="250">
+      <img
+        class = "rounded-lg"
+        src = "images/ss2.png"
+        alt = "image not available"
+        width="250">
+      <img
+        class = "rounded-lg"
+        src = "images/ss3.png"
+        alt = "image not available"
+        width="250">
+      <img
+        class = "rounded-lg"
+        src = "images/ss4.png"
+        alt = "image not available"
+        width="237">
+    </div>
+    <p class = "p-3 rounded-lg text-black w-5/6 bg-white bg-opacity-30 text-center">For our project, we developed a gaming website featuring a variety of fun games, including tic tac toe, memory games, and more! Our goal was to create an easily accessible platform where users can enjoy these games during their free time.
+During our initial brainstorming sessions, each team member had different games they wanted to include. To accommodate all our ideas, we decided to create a website that combined all of our favorite games. One standout feature of our website is the sidebar, which allows users to effortlessly switch between different games. We utilized Replit to build our website, with each team member focusing on developing a specific game.
+Through this project, we applied the HTML, Python, CSS, and JavaScript skills we learned in this program to create a user-friendly gaming website. Beyond the technical skills, we also learned the importance of teamwork and project management, ensuring everything ran smoothly and was completed on time.</p>
+    <a class = "p-2 bg-cyan-600 rounded-lg" href="/home.html">Go to website</a>
+  </div>
+
+</body>
 </html>
